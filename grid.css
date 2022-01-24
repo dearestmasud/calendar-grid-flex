@@ -1,0 +1,27 @@
+.calendar{
+width: 35em;
+height: 30em;
+margin: 0 auto;
+display: grid;
+grid-template-columns: repeat(7,1fr);
+grid-gap:1rem;
+}
+.date,.day{
+border:0.5px  solid;
+text-align:center;
+background-color: beige;
+border-radius: 1em;
+}
+.other-date{
+    background-color: lightcyan;
+    border-radius: 1em;
+}
+.day{
+    background: #000;
+    color: beige;
+    font-size: larger;
+    font-weight: 900;
+    text-align:center;
+    width: 3em;
+    height: 3em;
+}
